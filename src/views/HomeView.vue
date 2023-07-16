@@ -1,6 +1,6 @@
 <template>
 <NavBar/>
-<EstudiosVue/
+<Estudios/>
 </template>
 
 <script>
@@ -10,8 +10,8 @@ import Estudios from '@/components/Estudios.vue';
 export default {
   name: 'HomeView',
   components: {
-    NavBar
-    
+    NavBar,
+    Estudios
   }
 }
 </script>
